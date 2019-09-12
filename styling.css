@@ -6,15 +6,14 @@ body {
     font-size: 500%;
     color: white;
     font-family: 'Catamaran', sans-serif;
-    margin-top: 15%;
-    margin-bottom: 0%;
-    padding: 0%;
+    margin: auto;
+    padding-top: 25%;
     
 }
 #underline {
     border: 1px solid white;
-    margin-right: 30%;
-    margin-left: 30%;
+    width: 10px;
+    margin: auto;
     margin-bottom: 3%;
 }
 .button {
@@ -26,14 +25,18 @@ body {
     margin-right: 1%;
     color: white;
     font-family: 'Catamaran', sans-serif;
-    font-size: 11pt;
+    font-size: 12pt;
     text-decoration: none;
     text-align: center;
     border: none;
     border-radius: 3px;
     outline: none;
 }
+.button:hover {
+    transition: 150ms;
+}
 #buttons {
     text-align: center;
     height: 15%;
+    opacity: 0;
 }
