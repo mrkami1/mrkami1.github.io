@@ -40,7 +40,7 @@ window.onload = function() {
 function loadAnimation() {
     anime({
         targets: underline,
-        width: '50%', // -> from '28px' to '100%',
+        width: '35%', // -> from '28px' to '100%',
         easing: 'easeInOutQuad',
         duration: 800,
         loop: false
