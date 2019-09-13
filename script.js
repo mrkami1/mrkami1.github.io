@@ -40,9 +40,9 @@ window.onload = function() {
 function loadAnimation() {
     anime({
         targets: underline,
-        width: '800px', // -> from '28px' to '100%',
+        width: '800px',
         easing: 'easeOutQuart',
-        duration: 800,
+        duration: 900,
         loop: false
       });
     anime({
@@ -50,7 +50,7 @@ function loadAnimation() {
         opacity: 100,
         easing: 'easeInSine',
         duration: 3000,
-        delay: 550,
+        delay: 650,
         loop: false
     });
 }
