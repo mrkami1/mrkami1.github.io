@@ -5,10 +5,10 @@ body {
 
 #quickLinks {
     opacity: 0;
-    padding-top: 5px;
+    padding-top: 15px;
     position: fixed;
     width: 100%;
-    height: 20px;
+    height: 30px;
     background-color: rgb(50, 50, 50);
     margin: auto;
 }
@@ -16,11 +16,10 @@ body {
 #quickLinks p {
     color: white;
     font-family: 'Questrial', sans-serif;
-    font-size: 12pt;
+    font-size: 13pt;
     text-decoration: none;
     padding-left: 2%;
     display: inline;
-    margin: auto;
 }
 
 #quickLinks p:hover {
@@ -35,6 +34,7 @@ body {
     font-size: 500%;
     text-align: center;
     margin: auto;
+    padding-top: 50px;
     opacity: 0;
 }
 
@@ -47,9 +47,9 @@ body {
 }
 
 .project {
-    border: solid white 2px;
-    border-bottom: none;
-    border-right: none;
+    border: solid white 1px;
+    border-top: none;
+    border-left: none;
     word-wrap: break-word;
     font-family: 'Catamaran', sans-serif;
     color: white;
@@ -69,4 +69,16 @@ body {
 
 .project img {
     float: right;
+    padding-left: 10px;
+    padding-bottom: 5px; 
+}
+
+.project a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.project a:hover {
+    transition: 150ms;
+    color: rgb(50, 100, 200);
 }
