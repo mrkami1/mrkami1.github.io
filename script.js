@@ -1,8 +1,6 @@
 let name, underline;
 let aboutMeButton, projectsButton, contactButton, buttonClass, buttonsDiv;
 
-location.reload();
-
 window.onload = function() {
     
     //Get the elements
