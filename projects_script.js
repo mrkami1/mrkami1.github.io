@@ -15,7 +15,7 @@ window.onload = function() {
         }
     }
     
-    this.addProject("Real-time Strategy Game (WIP)", "test 1 desc here", "https://github.com/mrkami1", "https://via.placeholder.com/150");
+    this.addProject("Real-time Strategy Game (WIP)", "", "https://github.com/mrkami1", "https://via.placeholder.com/150");
     this.addProject("Planet Explorer (WIP)", "A Simulator type game of the solar system", "https://github.com/mrkami1", "https://via.placeholder.com/150")
 
     loadAnimation();

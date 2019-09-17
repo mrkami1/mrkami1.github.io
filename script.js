@@ -1,7 +1,10 @@
 let name, underline;
 let aboutMeButton, projectsButton, contactButton, buttonClass, buttonsDiv;
 
+
+
 window.onload = function() {
+    this.location.reload();
     //Get the elements
     name = this.document.getElementById("name");
     underline = this.document.getElementById("underline");
