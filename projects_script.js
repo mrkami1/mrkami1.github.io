@@ -1,7 +1,7 @@
 let underline, title, quickLinks;
 let project_list;
 
-window.addEventListener('load', function(event) {
+window.onload = function() {
     title = this.document.getElementById("title");
     underline = this.document.getElementById("underline");
     quickLinks = this.document.getElementById("quickLinks");
@@ -25,7 +25,9 @@ window.addEventListener('load', function(event) {
     }
 
     getProjects("https://api.github.com/users/mrkami1/repos?per_page=100");
-})
+}
+
+window.onunload = function(){}; 
 
 function loadAnimation() {
     anime({
