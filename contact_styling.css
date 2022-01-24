@@ -46,50 +46,33 @@ body {
     opacity: 0;
 }
 
-.project {
-    border: solid rgb(131, 131, 131) 1px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    word-wrap: break-word;
-    font-family: 'Catamaran', sans-serif;
-    color: white;
-    max-width: 750px;
-    padding: 15px;
+#contact_info {
     margin: auto;
-    margin-bottom: 100px;
+    text-align: center;
+}
+
+#github, #linkedin {
     opacity: 0;
+    display: inline-block;
+    margin-top: 5em;
+    cursor: pointer;
 }
 
-.project_title {
+#github {
     color: white;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 24pt;
-    margin: auto;
 }
 
-.project_name {
-    font-size: 24pt;
-    text-decoration: underline 2px;
-    text-underline-offset: 10px;
-    
+#linkedin {
+    color:steelblue;
 }
 
-.project_desc {
-    font-size: 14pt;
+#spacing {
+    display: inline-block;
+    width: 10em;
 }
 
-.project_link {
-    font-size: 12pt;
-}
-
-.project_link a{
-    text-decoration: none;
-    color: rgb(75, 159, 255);
-    transition-duration: 100ms;
-}
-
-.project_link a:hover{
-    color: rgb(255, 255, 255);
-    transition-duration: 100ms;
+p {
+    font-size: 14px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
 }

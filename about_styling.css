@@ -46,50 +46,18 @@ body {
     opacity: 0;
 }
 
-.project {
-    border: solid rgb(131, 131, 131) 1px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    word-wrap: break-word;
-    font-family: 'Catamaran', sans-serif;
-    color: white;
-    max-width: 750px;
-    padding: 15px;
-    margin: auto;
-    margin-bottom: 100px;
-    opacity: 0;
-}
-
-.project_title {
-    color: white;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 24pt;
-    margin: auto;
-}
-
-.project_name {
-    font-size: 24pt;
-    text-decoration: underline 2px;
-    text-underline-offset: 10px;
+p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 16pt;
     
+    color: white;
+    padding: 0;
+    margin: auto;
+    word-wrap: break-word;
+    width: 70%;
 }
 
-.project_desc {
-    font-size: 14pt;
-}
-
-.project_link {
-    font-size: 12pt;
-}
-
-.project_link a{
-    text-decoration: none;
-    color: rgb(75, 159, 255);
-    transition-duration: 100ms;
-}
-
-.project_link a:hover{
-    color: rgb(255, 255, 255);
-    transition-duration: 100ms;
+#description {
+    margin: auto;
+    opacity: 0;
 }
