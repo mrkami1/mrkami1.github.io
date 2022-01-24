@@ -22,15 +22,15 @@ window.onload = function() {
     for (let i = 0; i < quickLinks.childElementCount; i++) {
         switch (quickLinks.children[i].textContent) {
             case "Home":    quickLinks.children[i].onclick = function() {
-                                nextPage("index.html");
+                                nextPage("index.html?");
                             }
                             break;
             case "Projects":   quickLinks.children[i].onclick = function() {
-                                nextPage("projects.html");
+                                nextPage("projects.html?");
                             }
                             break;
             case "About Me": quickLinks.children[i].onclick = function() {
-                                nextPage("about.html");
+                                nextPage("about.html?");
                             }
                             break;       
         }

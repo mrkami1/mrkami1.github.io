@@ -80,7 +80,7 @@ function nextPage(buttonname) {
         opacity: 0,
         complete: function() {
             let pageName = buttonname.substring(0, buttonname.indexOf('_'));
-            window.location.href = pageName + ".html";
+            window.location.href = pageName + ".html?";
         }
       });
 }
