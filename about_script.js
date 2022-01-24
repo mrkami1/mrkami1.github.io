@@ -1,6 +1,6 @@
 let underline, title, quickLinks;
 
-window.onload = function() {
+window.addEventListener('load', function(event) {
     title = this.document.getElementById("title");
     underline = this.document.getElementById("underline");
     quickLinks = this.document.getElementById("quickLinks");
@@ -23,7 +23,7 @@ window.onload = function() {
     }
 
     loadAnimation();
-}
+})
 
 function loadAnimation() {
     anime({

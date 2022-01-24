@@ -1,7 +1,7 @@
 let name, underline;
 let aboutMeButton, projectsButton, contactButton, buttonClass, buttonsDiv;
 
-window.onload = function() {
+window.addEventListener('load', function(event) {
     
     //Get the elements
     name = this.document.getElementById("name");
@@ -44,7 +44,7 @@ window.onload = function() {
     
     //Start the page load animation
     loadAnimation();
-}
+})
 
 function loadAnimation() {
     anime({

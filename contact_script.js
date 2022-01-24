@@ -1,7 +1,9 @@
 let underline, title, quickLinks;
 let github, linkedin
 
-window.onload = function() {
+window.addEventListener('load', function(event) {
+    
+  
     title = this.document.getElementById("title");
     underline = this.document.getElementById("underline");
     quickLinks = this.document.getElementById("quickLinks");
@@ -38,7 +40,7 @@ window.onload = function() {
 
     
     loadAnimation();
-}
+});
 
 function loadAnimation() {
     anime({
@@ -111,5 +113,5 @@ function nextPage(page) {
         complete: function() {
             window.location.href = page;
         }
-      });
+    });
 }
